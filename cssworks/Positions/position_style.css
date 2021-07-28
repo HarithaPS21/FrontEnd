@@ -1,0 +1,27 @@
+.row{
+    width:600px;
+    height:500px;
+    background-color:cornflowerblue;
+    position:relative;
+}
+.col{
+    width:200px;
+    height:200px;
+    background-color:darkkhaki;
+    float: left;
+    /* margin-top: 10px;
+    margin-left: 50px;
+    padding-top: 10px; */
+    position:absolute;
+    /* left:80%;
+    top:100%; */
+    left:50%;
+    top:50%;
+}
+
+/* .col-1{
+    width:200px;
+    height:200px;
+    background-color: deeppink;
+    float:left;
+} */

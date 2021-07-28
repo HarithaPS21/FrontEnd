@@ -1,0 +1,28 @@
+
+
+body{
+    height:1500px;
+    /* background-color:indianred; */
+}
+
+.row-1{
+    /* fixed div */
+    width:100px;
+    min-height:200px;
+    background-color:darkgoldenrod;
+    position: fixed;
+    left:75%;
+}
+.section{
+    width:70%;
+    height:200px;
+    background-color:plum;
+}
+.row-2{
+    /* sticky div */
+    width:500px;
+    height:100px;
+    background-color:sandybrown;
+    position: sticky;
+    top:5px;
+}

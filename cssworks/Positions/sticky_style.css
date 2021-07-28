@@ -1,0 +1,9 @@
+
+body{
+    height:1000px;
+    background-color: darkkhaki;
+}.row{
+    width:70%;
+    height:200px;
+    background-color: darkturquoise;
+}

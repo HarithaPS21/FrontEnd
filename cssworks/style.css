@@ -1,0 +1,42 @@
+/* tagname/classname/id{
+    property1 : value1;
+    property2 : value2;
+    property3 : value3;
+} */
+
+body{
+    background-color:#f0f2f5;
+    /* hexadecimal value rrggbb */
+}
+
+/* body,h1,hone  -  css selectors */
+h1{
+    color:#1877f2; 
+     /* primary colors */
+    text-align: center;
+}
+
+#hone{
+    color:hsl(233, 68%, 43%);
+    /*  hsl(hue 0-360,saturation 0-360%,lightness 0-360%)   */
+    
+}
+
+.btn{
+    /* padding:12px 20px; */
+    width: 80px;
+    height: 40px;
+    background-color:#5e068a;
+    color:white;
+}
+button{
+
+    width:120px;
+    height:40px;
+    color:#5e068a; 
+}
+
+/* css selectors  - tagname selector
+                    id selector(#)
+                    class selector(.) 
+*/

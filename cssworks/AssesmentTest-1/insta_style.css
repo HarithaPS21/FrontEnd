@@ -1,0 +1,133 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:white;
+    position:relative;
+
+}
+.container{
+    position:relative;
+    left:300px;
+    width:400px;
+    height:320px;
+    /* background-color: cadetblue; */
+    border:1px groove rgb(250, 247, 247);
+    border-style:groove;
+    text-align: center;
+    font-style:italic;
+    line-height: 1;
+}
+form{
+    position: absolute;
+    left:60px;
+    width:300px;
+    padding:5px;
+    font-style: normal;
+    /* background-color: darkorchid; */
+}
+.textbox{
+    width:80%;
+    height:30px;
+}
+#btn{
+    width:70%;
+    height:30px;
+    border:1px white ;
+    color:white;
+    background-color:dodgerblue;
+}
+#para{
+     color: #385185;
+}
+/* #para{
+    border-block:initial;
+    text-decoration-line:initial;
+} */
+.details{
+    /* background-color: cornflowerblue; */
+}
+.invalid{
+    border:1px groove rgb(250, 247, 247);
+    margin-top:20px;
+    /* margin-top:10px; */
+    margin-bottom: 10px;
+    position:absolute;
+    top:310px;
+    left:300px;
+    width:400px;
+    /* background-color: dimgray; */
+    padding:2px;
+    text-align: center;
+}
+.end{
+    position:absolute;
+    top:400px;
+    left:300px;
+    width:400px;
+    height:180px;
+    text-align: center;
+    /* background-color: goldenrod; */
+    
+}
+.images{
+    margin:0px;
+    display:flex;
+    justify-content:center;
+    /* background-color:goldenrod ;  */
+}
+.foot{
+    position:relative;
+    /* top:295px; */
+    top:240px;
+    /* left:300px; */
+    width:100%;
+    height:120px;
+    /* background-color: chartreuse; */
+
+    /* display:flex; */
+    /* justify-content:center; */
+    /* align-items: stretch; */
+    /* margin-right: 5px; */
+    text-align: center;
+}
+.foot-1{
+    position:relative;
+
+}
+.last{
+    position:absolute;
+    top:45px;
+    width:100%;
+    /* background-color:hotpink; */
+
+    padding:2px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.menu{
+    position:absolute;
+    top:65px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* margin-right:6px; */
+    padding-right: 6px;
+    bottom:30px;
+   
+    /* background-color: crimson; */
+}
+.hztqj{
+    position:absolute;
+    top:25px;
+    left:400px;
+    padding-left:10px;
+    /* margin-bottom: 20px; */
+    
+}
+#lastpara{
+    position:absolute;
+    top:10px;
+    right:200px;
+}

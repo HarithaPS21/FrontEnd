@@ -1,0 +1,32 @@
+div{
+    float: left;
+    width:30%;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    border:tomato 2px solid;
+    height:400px;
+    margin-left: 20px;
+}
+/* css units  - % (relative to parent)
+              - pixel px (absolute)
+ */
+
+div img{
+    width:100%;
+}
+
+div h3{
+    color:#5e068a;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+div p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    padding:20px;
+}
+
+

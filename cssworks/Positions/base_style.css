@@ -1,0 +1,42 @@
+/* position types - static,relative,absolute,fixed,sticky */
+body{
+    height:1500px;
+    background-color: cornsilk;
+}
+.row{
+    width:600px;
+    height:300px;
+    background-color: mediumslateblue;
+    position: relative;
+    top:10%;
+}
+.col{
+    width:300px;
+    height:200px;
+    background-color: cyan;
+    position:relative;
+    left:100%;
+}
+.section{
+    width:100px;
+    height:100px;
+    background-color: darkorange;
+    position:absolute;
+    top:50%;
+
+}
+.row-1{
+    position:fixed;
+    left:75%;
+    width:300px;
+    height:200px;
+    background-color:orchid;
+
+}
+.row-2{
+    position:sticky;
+    top:10px;
+    width:100px;
+    height:200px;
+    background-color:orangered;
+}

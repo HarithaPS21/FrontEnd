@@ -1,0 +1,92 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+
+    position:relative;
+    left:100px;
+    right:100px;
+    top:20px;
+    bottom:10px;
+    width:100px;
+    height:600px;
+    background-color:black;
+}
+
+header{
+    position:absolute;
+    /* left:200px; */
+    left:266px;
+    line-height: 1;
+    text-align:left;
+    font-family:sans-serif;
+    width:600px;
+    height: 150px;
+    margin-top: 0px;
+    background-color:darkslateblue;
+    color:white;
+    padding:5px;
+
+}
+
+#title{
+    text-decoration-line: underline;
+}
+aside{
+    position:absolute;
+    /* width:200px; */
+    width:265px;
+    height:900px;
+    background-color:#fff ;
+    /* margin-top: 150px; */
+    margin-top:1px ;
+    padding: 5px;
+    /* border-top:2px solid navy;  */
+}
+#image{
+    position: absolute;
+    top:0px;
+    /* width:250px; */
+    width:238px;
+}
+.contact{
+    color: black;
+    padding:3px;
+
+}
+.blue{
+    color:blue;
+}
+.skills{
+    color:white;
+
+}
+#heading{
+    color:navy;
+    text-decoration-line: underline;
+}
+.skillboxes{
+    color:white;
+    border:1px solid black;
+    background-color: navy; 
+}
+
+main{
+    width:600px;
+    height:750px;
+    background-color:#fff;
+    position:absolute;
+    top:150px;
+    /* left:200px; */
+    left:266px;
+    line-height: 0;
+    padding:5px;
+}
+
+.list{
+    line-height: 1;
+}
+
+
+

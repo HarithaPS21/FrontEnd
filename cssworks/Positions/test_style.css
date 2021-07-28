@@ -1,0 +1,37 @@
+.row{
+    width:70%;
+    height:300px;
+    background-color: fuchsia;
+    display:flex;
+    justify-content:flex-start;
+    /* justify-content  - to move horizontally
+    justify-content:first baseline;
+    justify-content: center;
+    justify-content:space-evenly; */
+    align-items: flex-end;
+    /* align-items - to align verically
+    align-items: center;
+    align-items: baseline; */
+}
+.col{
+    /* width:30%; */
+    width:100px;
+    height:100px;
+}
+.col:nth-child(1){
+    background-color: goldenrod;
+    /* flex:1; */
+}
+.col:nth-child(2){
+    background-color: indigo;
+    flex:1;
+}
+.col:nth-child(3){
+    background-color: maroon;
+    flex:2;
+    /* highest value of flex will have highest mask-border-width */
+}
+.col:nth-child(4){
+    background-color: mediumvioletred;
+    flex:1; /* to fill up the remaining blank space */
+}

@@ -1,0 +1,53 @@
+.nav-item a{
+    font-size: 14px;
+    font-weight: 500;
+    color:#2d3e50 !important;
+    /* line-height: 26px; */
+}
+.nav-item a:hover{
+    color:#5e068a !important;
+}
+.carousel-item img{
+    height:400px;
+}
+/* .btn{
+    border:1px blueviolet;
+    color:white;
+    background-color: #5e068a none repeat scroll 0;
+    width:150px;
+    height:120px;
+} */
+h3{
+    color:#5e068a;
+    font-weight: 580;
+    font-size: 32px;
+}
+.container span{
+    color: #5e068a99;
+}
+.container p{
+    line-height: 32;
+    font-size: 16px;
+}
+.container .my-btn{
+    padding:16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius:50px; 
+    background-color: #5e068a;
+    border:2px solid white;
+    color:white;
+
+}
+.container .my-btn:hover{
+    background-color:#5e068a99; ;
+    color:white;
+}
+.container .card a{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #5e068a;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+
+.container{
+    background-color: #edf7e4;
+}
+.col-12 img{
+    margin-left:100px;
+    border-radius: 50%;
+}
+ 
+/* .col-4{
+    background-color: darkslateblue;
+} */
+.col-7{
+    background-color: white;
+}

@@ -1,0 +1,35 @@
+
+body{
+    width:100vw;
+    height:100vh;
+}
+
+header{
+    padding: .75rem 0;
+    background-color: #7952b3;
+    color:white;
+    height:60px;
+    padding-bottom:15px ;
+}
+.nav-item a{
+    color:rgb(240, 232, 232) !important;
+    /* line-height: 1.2; */
+    
+}
+.nav-item a:hover{
+    color:white !important;
+}
+#home{
+    color:white;
+    font-weight: bold;
+}
+#btn-1{
+    color:#ffe484;
+    background-color:#7952b3 ;
+}
+#btn-1:hover{
+    color: #2a2730;
+    font-weight: bold;
+    background-color: #ffe484;
+    border-color: #ffe484;
+}
